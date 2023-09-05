@@ -7,11 +7,11 @@ export const listaProdutos = [
     {
         id:2 ,
         nome:'Mouse' ,
-        preco :349.87
+        preco :120
     },
     {
-        id:3,nome:"Monitor",
-        preco:699.99
+        id: 3,nome:"Monitor",
+        preco:950
     },
     
 ]
