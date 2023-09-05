@@ -1,21 +1,8 @@
-import { useParams, useNavigate } from "react-router-dom"
-import { listaProdutos } from "../../Components/listaProdutos.js"
-export default function EditarProdutos(){
+export default function Home(){
 
-    const lista = listaProdutos
-    const navegacao = useNavigate()
-
-    const salvar = ()=>{
-
-        alert(`Prdouto:${produto.nome} editado com sucesso!`)
-        return navegacao(`/produtos`)
-    }
-    
     return(
         <main>
-            <h1>Editando Produtos</h1>
-            <p>Editando os dados do produto: {Produtos.nome}</p>
-            <button onClick={salvar}>Salvar</button>
+            <h1>HOME</h1>
         </main>
     )
 }
