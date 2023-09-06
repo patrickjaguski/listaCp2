@@ -1,8 +1,8 @@
-export default function Home(){
+export default function EditarProduto(){
 
     return(
         <main>
-            <h1>HOME</h1>
+            <h1>Editando o produto</h1>
         </main>
     )
 }
